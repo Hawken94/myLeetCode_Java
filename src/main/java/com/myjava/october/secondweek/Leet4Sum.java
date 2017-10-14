@@ -1,4 +1,4 @@
-package com.myjava.october;
+package com.myjava.october.secondweek;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,6 +11,8 @@ import java.util.List;
  * based on 3Sum
  */
 public class Leet4Sum {
+    // FourSum based on 3Sum
+    // 思路:基于3Sum的想法,排序后先判断前四个,再判断第一个和最后三个;接着是在循环里面判断前三个和最后一个的和与target的比较
     public List<List<Integer>> fourSum(int[] num, int target) {
         ArrayList<List<Integer>> ans = new ArrayList<>();
         int len = num.length;
@@ -20,7 +22,7 @@ public class Leet4Sum {
             if (num[i] + num[i + 1] + num[i + 2] + num[i + 3] > target) break;
             if (num[i] + num[len - 1] + num[len - 2] + num[len - 3] < target)
                 continue;
-            if (i > 0 && num[i] == num[i + 1]) continue; // 去掉重复的
+            if (i > 0 && num[i] == num[i - 1]) continue; // 去掉重复的
             for (int j = i + 1; j < len - 2; j++) {
                 if (num[i] + num[j] + num[j + 1] + num[j + 2] > target) break;
                 if (num[i] + num[j] + num[len - 1] + num[len - 2] < target) continue;
