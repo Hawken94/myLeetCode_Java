@@ -10,7 +10,7 @@ import java.util.List;
  *
  * based on 3Sum
  */
-public class Leet4Sum {
+public class FourSum {
     // FourSum based on 3Sum
     // 思路:基于3Sum的想法,排序后先判断前四个,再判断第一个和最后三个;接着是在循环里面判断前三个和最后一个的和与target的比较
     public List<List<Integer>> fourSum(int[] num, int target) {

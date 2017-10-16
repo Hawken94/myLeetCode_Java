@@ -23,8 +23,8 @@ public class Leet4SumTest {
         ArrayList<List<Integer>> res = new ArrayList<>();
         res.add(Arrays.asList(-4, 0, 1, 2));
         int[] num = {-1, 0, 1, 2, -1, -4};
-        System.out.println(new Leet4Sum().fourSum(num,-1));
-        Assert.assertEquals(new Leet4Sum().fourSum(num,-1),res);
+        System.out.println(new FourSum().fourSum(num,-1));
+        Assert.assertEquals(new FourSum().fourSum(num,-1),res);
     }
 
 }

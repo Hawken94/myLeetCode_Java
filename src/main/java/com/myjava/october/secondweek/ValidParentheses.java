@@ -2,7 +2,7 @@ package com.myjava.october.secondweek;
 
 import java.util.Stack;
 
-public class LeetValidParentheses {
+public class ValidParentheses {
     // IsValid Valid Parentheses
     // 思路：由于是判断字符串是否对称，可以栈来设计，入栈和出栈来判断。很巧妙。
     public boolean isValide(String s) {

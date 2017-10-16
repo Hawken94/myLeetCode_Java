@@ -17,7 +17,7 @@ public class LeetValidParenthesesTest {
     @Test
     public void isValide() throws Exception {
         String s = "(){}[]";
-        Assert.assertEquals(new LeetValidParentheses().isValide(s),true);
+        Assert.assertEquals(new ValidParentheses().isValide(s),true);
     }
 
 }
