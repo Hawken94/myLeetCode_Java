@@ -1,8 +1,12 @@
 package com.myjava.october;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Leet4Sum Tester.
@@ -27,7 +31,13 @@ public class Leet4SumTest {
     @Test
     public void testFourSum() throws Exception {
         //TODO: Test goes here...
-        System.out.println("xhk");
+        int[] test = {1, 0, -1, 2, 1, 0, 3};
+        List<Integer> res = new ArrayList<>();
+        res.add(-1);
+        res.add(0);
+        res.add(0);
+        res.add(1);
+        Assert.assertEquals(1,new Leet4Sum().fourSum(test,1));
     }
 
 } 
