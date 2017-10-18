@@ -16,6 +16,7 @@ public class GenerateParenthesesTest {
     @Test
     public void generateParentheses() throws Exception {
         new GenerateParentheses().generateParentheses(3);
+        System.out.println(new GenerateParentheses().generateParentheses2(3));
     }
 
 }
