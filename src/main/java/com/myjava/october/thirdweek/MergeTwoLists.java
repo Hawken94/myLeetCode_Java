@@ -1,18 +1,12 @@
 package com.myjava.october.thirdweek;
 
+import com.myjava.utils.ListNode;
+
 /**
  * @author hawken
  */
 @SuppressWarnings("ALL")
 public class MergeTwoLists {
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * mergeTwoLists class Function

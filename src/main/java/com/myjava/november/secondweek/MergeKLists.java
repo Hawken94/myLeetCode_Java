@@ -1,5 +1,7 @@
 package com.myjava.november.secondweek;
 
+import com.myjava.utils.ListNode;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
@@ -8,14 +10,6 @@ import java.util.PriorityQueue;
  * @author hawken
  */
 public class MergeKLists {
-    class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     /**
      * 使用优先队列来解决问题，虽然不是很懂
@@ -40,7 +34,6 @@ public class MergeKLists {
                 }
             }
         });
-
 
         ListNode dummy = new ListNode(0);
         ListNode tail = dummy;

@@ -1,5 +1,7 @@
 package com.myjava.firstweek;
 
+import com.myjava.utils.ListNode;
+
 public class LC7_22 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
