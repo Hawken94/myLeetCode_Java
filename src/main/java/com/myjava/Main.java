@@ -19,7 +19,7 @@ public class Main {
         /*int[] S = {-1, -1, -1, 0, 2, 1, -2, 2, 4, 4};
         List<List<Integer>> res;*/
 
-        /*result = new LC7_20().twoSum(nums, target);
+        /*result = new LC7_20().twoSum(n®®ums, target);
         for (int i = 0; i < result.length; i++) {
 
             System.out.println(result[i]);
