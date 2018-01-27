@@ -15,6 +15,7 @@ public class CombinationSum {
         return list;
     }
 
+    // {2, 3, 5, 6, 7};
     private void backtrack(List<List<Integer>> list, List<Integer> tempList, int[] nums, int remain, int start) {
         if (remain < 0) {
             return;

@@ -1,5 +1,7 @@
 package com.myjava;
 
+import java.util.HashMap;
+
 public class Test {
     public static void main(String[] args) {
         /*Scanner input = new Scanner(System.in);
@@ -28,5 +30,7 @@ public class Test {
             default:
                 System.out.println(0);
         }*/
+        HashMap<Integer, String> map = new HashMap<>();
+
     }
 }
